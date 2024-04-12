@@ -2,14 +2,8 @@
 This is a simple web apllication that demonstrates how input values are taken through HTML input fields and errors/results are displayed using JAVASCRIPT.
 
 ## Run Locally
-1. Clone the repositiory to your local macghine using Git:
-  '''bash
- https://github.com/Manya-0414/Tax-Calculator.git
-'''
-2.Navigate into project directory:
-  '''bash
- cd Tax-Calculator
-'''
+1. Clone the repositiory to your local macghine using Git:https://github.com/Manya-0414/Tax-Calculator.git
+2.Navigate into project directory:  cd Tax-Calculator
 3. Open the 'index.html' file in your web boswer.
 
 ## Usage
