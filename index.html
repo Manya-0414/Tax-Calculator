@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <h1>TAX CALCULATOR</h1>
+    <form id="taxform">
+        <label for="grossincome">Enter gross annual income  <span class="infoicon" ><abbr title="Gross income is the total income in a year before any tax reductions.">?</abbr></span></label>
+        <input id="grossincome" type="number" placeholder="Enter gross annual income(in Rupees) "> 
+        <span class="errors" id="error1"> !</span>
+
+        <label for="extraincome">Enter extra income <span class="infoicon" ><abbr title="Extra income is the income you earn through freelance or partimes.">?</abbr></span> </label>
+        <input id="extraincome" type="number" placeholder="Enter extra income from other rescources (in Rupees)"> 
+        <span class="errors" id="error2"> !</span>
+
+        <label for="age">Enter Age group(years) <span class="infoicon" ><abbr  title="Enter your current age.">?</abbr></span></label>
+        <select id="age">
+            <option value="<40">&lt; 40</option>
+            <option value=">=40 &lt;60"> >=40 &lt; 60</option>
+            <option value=">60">>= 60</option>
+        </select>
+        <span class="errors" id="error3"> !</span>
+
+        <label for="deductions">Enter total applicable deductions  <span class="infoicon "><abbr title="A tax deduction is a total amount an individual can claim to reduce their tax liability.">?</abbr></span></label>
+        <input id="deductions" type="number" placeholder="Add total applicable deductions (in Rupees)">
+        <span class="errors" id="error1"> !</span>
+
+        <button type="submit" id="submit" >Submit</button>
+    </form>
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <h2>Tax Result</h2>
+        <p id="results"></p>
+        <button class="close">Close</span>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
